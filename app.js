@@ -203,7 +203,7 @@ function jogar() {
       }else if(pontosJogador == pontosMaquina){
         htmlResultado = '<p class="resultado-final">Empatou!</p>'
       }else{
-         htmlResultado = '<p class="resultado-final">O Jogador perdeu!/p>'
+         htmlResultado = '<p class="resultado-final">O Jogador perdeu!</p>'
       }
     }else{
       document.getElementById('btnProximaRodada').disabled = false
