@@ -1,86 +1,127 @@
-var cartaPaulo = {
-    nome: "Seiya de Pegaso",
-    imagem: "https://i.pinimg.com/originals/c2/1a/ac/c21aacd5d092bf17cfff269091f04606.jpg",
+var cartaMu = {
+    nome: "Mu de Áries",
+    imagem: "https://static.wikia.nocookie.net/ssu/images/4/41/Mu_OCE_UW_card_edit.png/revision/latest?cb=20180129053013",
+    atributos: {
+        ataque: 30,
+        defesa: 80,
+        magia: 80
+    }
+}
+
+var cartaAldebaran = {
+    nome: "Aldebaran de Touro",
+    imagem: "https://static.wikia.nocookie.net/ssu/images/7/72/Aldebaran_card.png/revision/latest?cb=20190614123815",
+    atributos: {
+        ataque: 90,
+        defesa: 100,
+        magia: 60
+    }
+}
+
+var cartaSaga = {
+    nome: "Saga de Gêmeos",
+    imagem: "https://static.wikia.nocookie.net/os-cavaleiros-de-ouro/images/1/1b/12670278_784191571726744_4947334723433888435_n_%281%29.jpg/revision/latest?cb=20160204223808&path-prefix=pt-br",
+    atributos: {
+        ataque: 50,
+        defesa: 70,
+        magia: 110
+    }
+}
+
+var cartaMascaradaMorte = {
+    nome: "Máscara da morte de Câncer",
+    imagem: "https://static.wikia.nocookie.net/os-cavaleiros-de-ouro/images/b/ba/Mascara_da_morte.jpg/revision/latest/scale-to-width-down/340?cb=20150921021000&path-prefix=pt-br",
+    atributos: {
+        ataque: 40,
+        defesa: 50,
+        magia: 50
+    }
+}
+
+var cartaAiolia = {
+    nome: "Aiolia de Leão",
+    imagem: "http://pm1.narvii.com/6885/5a6a4204d55c8736142c87d7031590038a3e219er1-480-480v2_00.jpg",
     atributos: {
         ataque: 80,
-        defesa: 60,
-        magia: 90
-    }
-}
-
-var cartaRafa = {
-    nome: "Bulbasauro",
-    imagem: "http://4.bp.blogspot.com/-ZoCqleSAYNc/UQgfMdobjUI/AAAAAAAACP0/s_iiWjmw2Ys/s1600/001Bulbasaur_Dream.png",
-    atributos: {
-        ataque: 70,
-        defesa: 65,
-        magia: 85
-    }
-}
-
-var cartaGui = {
-    nome: "Lorde Darth Vader",
-    imagem: "https://images-na.ssl-images-amazon.com/images/I/51VJBqMZVAL._SX328_BO1,204,203,200_.jpg",
-    atributos: {
-        ataque: 88,
-        defesa: 62,
-        magia: 90
-    }
-}
-
-var cartaLol = {
-    nome: "Caitlyn",
-    imagem: "http://1.bp.blogspot.com/-K7CbqWc1-p0/VLc98v85s0I/AAAAAAAABqk/-ZB684VVHbg/s1600/Caitlyn_OriginalSkin.jpg",
-    atributos: {
-        ataque: 95,
-        defesa: 40,
-        magia: 10
-    }
-}
-
-var cartaNaruto = {
-    nome: "Naruto",
-    imagem: "https://conteudo.imguol.com.br/c/entretenimento/16/2017/06/27/naruto-1498593686428_v2_450x337.png",
-    atributos: {
-        ataque: 80,
-        defesa: 60,
+        defesa: 80,
         magia: 100
     }
 }
 
-var cartaHarry = {
-    nome: "Harry Potter",
-    imagem: "https://sm.ign.com/ign_br/screenshot/default/89ff10dd-aa41-4d17-ae8f-835281ebd3fd_49hp.jpg",
+var cartaShaka = {
+    nome: "Shaka de Virgem",
+    imagem: "https://i.pinimg.com/originals/a4/a4/0c/a4a40cb602a48d1979748a4786636c97.jpg",
+    atributos: {
+        ataque: 20,
+        defesa: 80,
+        magia: 120
+    }
+}
+
+var cartaDoko = {
+    nome: "Doko de Libra",
+    imagem: "https://i.pinimg.com/originals/47/b2/5e/47b25e44167efc7cfd4f1281275f51da.jpg",
+    atributos: {
+        ataque: 90,
+        defesa: 70,
+        magia: 90
+    }
+}
+
+var cartaMilo = {
+    nome: "Milo de Escorpião",
+    imagem: "https://i.pinimg.com/originals/72/81/00/728100286eedc343663d0f08efd1daf2.jpg",
+    atributos: {
+        ataque: 100,
+        defesa: 60,
+        magia: 70
+    }
+}
+
+var cartaAiolos = {
+    nome: "Aiolos de Sagitário",
+    imagem: "https://i.pinimg.com/originals/80/df/24/80df244d99e790e282c835d5504fa342.jpg",
     atributos: {
         ataque: 70,
-        defesa: 50,
+        defesa: 40,
         magia: 95
     }
 }
 
-var cartaBatman = {
-    nome: "Batman",
-    imagem: "https://assets.b9.com.br/wp-content/uploads/2020/09/Batman-issue86-heder-1280x677.jpg",
+var cartaShura = {
+    nome: "Shura de Capricórnio",
+    imagem: "https://static.wikia.nocookie.net/ssu/images/7/77/Shura_OCE_card.png/revision/latest?cb=20180104070208",
     atributos: {
-        ataque: 95,
-        defesa: 70,
-        magia: 0
+        ataque: 100,
+        defesa: 95,
+        magia: 40
     }
 }
 
-var cartaMarvel = {
-    nome: "Capitã Marvel",
-    imagem: "https://cinepop.com.br/wp-content/uploads/2018/09/capitamarvel21.jpg",
+var cartaCamus = {
+    nome: "Camus de Aquário",
+    imagem: "https://http2.mlstatic.com/D_NQ_NP_866918-MLB32020635038_082019-O.jpg",
     atributos: {
-        ataque: 90,
-        defesa: 80,
-        magia: 0
+        ataque: 30,
+        defesa: 70,
+        magia: 85
+    }
+}
+
+var cartaAfrodite = {
+    nome: "Afrodite de Peixes",
+    imagem: "https://i.pinimg.com/originals/e5/22/9e/e5229e1878b5af93e8b00d86cf6e444e.jpg",
+    atributos: {
+        ataque: 30,
+        defesa: 35,
+        magia: 45
     }
 }
 
 var cartaMaquina
 var cartaJogador
-var cartas = [cartaPaulo, cartaRafa, cartaGui, cartaLol, cartaNaruto, cartaHarry, cartaBatman, cartaMarvel]
+var cartas = [cartaMu, cartaAldebaran, cartaSaga, cartaMascaradaMorte, cartaAiolia, cartaShaka, cartaDoko, cartaMilo, cartaAiolos
+, cartaShura, cartaCamus, cartaAfrodite]
 
 var pontosJogador = 0
 var pontosMaquina = 0
